@@ -1,0 +1,22 @@
+@media(max-width: $media_tablet){
+    header{
+        nav .container{
+            a{
+                display: none;
+            }
+            span{
+                display: block;
+            }
+        }
+        main .container{
+            .showcase-image{
+                display: none;
+                width: 0%;
+            }
+
+            .showcase-text{
+                width:100%;
+            }
+        }
+    }
+}

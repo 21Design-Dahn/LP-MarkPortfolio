@@ -1,0 +1,56 @@
+@media (max-width: $media_phone){
+    .container{
+        width: 83%;
+        //min-width: 100px;
+        margin: 0 auto;
+    }
+
+    header{
+        nav .container{
+            h3{
+                font-size: 16px;
+            }
+
+            span{
+                img{
+                    float: right;
+                    width: 60%;
+                }
+            }
+        }
+
+        main .container{
+
+            .showcase-text{
+                h1{
+                    font-size: 7vw;
+                }
+                #transparent{
+                    -webkit-text-stroke: 1px $light;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                h3{
+                    font-size: 3vw;
+                    bottom: 12px;
+                }
+
+                .showcase-text-btns{
+                    margin-top: 18px;
+                    a{
+                        font-size: 2vw;
+                        padding: 10px 36px;
+                        margin-right: 12px;
+                    }
+                }
+            }            
+        }
+    }
+
+    footer{
+        img{
+            float: right;
+            width: 10%;
+        }
+    }
+}

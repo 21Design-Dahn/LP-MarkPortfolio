@@ -1,0 +1,70 @@
+@media (max-width: $media_tablet){
+    #el-1{
+        width: 8%;
+        top: 60%;
+        z-index: -1;
+    }
+
+    #el-2{
+        width: 12%;
+        bottom: 18%;
+    }
+
+    #el-3{
+        width: 14%;
+        right: 8%;
+        top: 50%;
+    }
+    .container{
+        width: 83%;
+        //min-width: 568px;
+        margin: 0 auto;
+    }
+    header{
+        nav .container{
+            a{
+                display: none;
+            }
+            span{
+                display: block;
+            }
+        }
+        main .container{
+            .showcase-image{
+                width:0%;
+                display: none;
+            }
+
+            .showcase-text{
+                width: 100%;
+                h1{
+                    font-size: 6vw;
+                }
+                #transparent{
+                    -webkit-text-stroke: 1px $light;
+                    -webkit-text-fill-color: transparent;
+                }
+                h3{
+                    font-size: 2vw;
+                }
+                .showcase-text-btns{
+                    a{
+                        //text-transform: lowercase;
+                        font-size: 2.4vw;
+                        //font-size: 1.4vw;
+                        padding: 12px 46px;
+                        margin-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+    
+    footer{
+        img{
+            position: relative;
+            bottom: 4vh;
+            float: right;
+        }
+    }
+}

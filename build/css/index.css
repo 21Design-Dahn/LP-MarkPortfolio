@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #0f2027;
+  background: linear-gradient(230deg, #0f2027 0%, #2c5364 75%, #0f2027 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow: hidden;
+  color: #e5e5e5; }
+
+.container {
+  width: 83%;
+  margin: 0 auto; }
+
+header nav .container {
+  padding-top: 4vh;
+  display: flex; }
+  header nav .container h3 {
+    font-size: 20px;
+    flex: 1;
+    color: #e5e5e5;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  header nav .container a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 16px;
+    letter-spacing: 2px; }
+  header nav .container span {
+    display: none; }
+
+footer img {
+  position: relative;
+  bottom: 4vh;
+  float: right; }
+
+#el-1 {
+  position: absolute;
+  z-index: -1;
+  top: 38%;
+  left: 6%; }
+
+#el-2 {
+  position: absolute;
+  z-index: -1;
+  bottom: 15%;
+  left: 35%; }
+
+#el-3 {
+  position: absolute;
+  z-index: -1;
+  right: 13%;
+  top: 10%; }
+
+.btn {
+  background-color: #e5e5e5;
+  color: #203A43;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 550; }
+
+header main .container {
+  display: flex;
+  height: 86vh; }
+  header main .container .showcase-image {
+    width: 45%; }
+  header main .container .showcase-text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    header main .container .showcase-text h1 {
+      font-size: 3.8vw;
+      text-transform: uppercase;
+      color: #e5e5e5; }
+    header main .container .showcase-text #transparent {
+      position: relative;
+      word-break: keep-all;
+      -webkit-text-stroke: 1.5px #e5e5e5;
+      -webkit-text-fill-color: transparent;
+      bottom: 2%; }
+    header main .container .showcase-text h3 {
+      font-size: 1.4vw;
+      color: #e5e5e5;
+      font-weight: 400;
+      position: relative;
+      bottom: 18px; }
+    header main .container .showcase-text .showcase-text-btns {
+      margin-top: 36px; }
+      header main .container .showcase-text .showcase-text-btns a {
+        font-size: 1vw;
+        padding: 10px 50px;
+        margin-right: 24px; }
+
+@media (max-width: 768px) {
+  #el-1 {
+    width: 8%;
+    top: 60%;
+    z-index: -1; }
+  #el-2 {
+    width: 12%;
+    bottom: 18%; }
+  #el-3 {
+    width: 14%;
+    right: 8%;
+    top: 50%; }
+  .container {
+    width: 83%;
+    margin: 0 auto; }
+  header nav .container a {
+    display: none; }
+  header nav .container span {
+    display: block; }
+  header main .container .showcase-image {
+    width: 0%;
+    display: none; }
+  header main .container .showcase-text {
+    width: 100%; }
+    header main .container .showcase-text h1 {
+      font-size: 6vw; }
+    header main .container .showcase-text #transparent {
+      -webkit-text-stroke: 1px #e5e5e5;
+      -webkit-text-fill-color: transparent; }
+    header main .container .showcase-text h3 {
+      font-size: 2vw; }
+    header main .container .showcase-text .showcase-text-btns a {
+      font-size: 2.4vw;
+      padding: 12px 46px;
+      margin-right: 24px; }
+  footer img {
+    position: relative;
+    bottom: 4vh;
+    float: right; } }
+
+@media (max-width: 568px) {
+  .container {
+    width: 83%;
+    margin: 0 auto; }
+  header nav .container h3 {
+    font-size: 16px; }
+  header nav .container span img {
+    float: right;
+    width: 60%; }
+  header main .container .showcase-text h1 {
+    font-size: 7vw; }
+  header main .container .showcase-text #transparent {
+    -webkit-text-stroke: 1px #e5e5e5;
+    -webkit-text-fill-color: transparent; }
+  header main .container .showcase-text h3 {
+    font-size: 3vw;
+    bottom: 12px; }
+  header main .container .showcase-text .showcase-text-btns {
+    margin-top: 18px; }
+    header main .container .showcase-text .showcase-text-btns a {
+      font-size: 2vw;
+      padding: 10px 36px;
+      margin-right: 12px; }
+  footer img {
+    float: right;
+    width: 10%; } }

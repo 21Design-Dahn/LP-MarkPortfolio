@@ -1,0 +1,44 @@
+@import 'config';
+
+header{
+    nav .container{
+        a{
+            margin-left: 18px;
+        }
+    }
+
+    main .container{
+        text-align: center;
+        height: 80vh;
+        margin: 24px auto;
+        h1{
+            font-size: 36px;
+            font-weight: 400;
+        }
+
+        .box{
+            background-color: $light;
+            width: 70%;
+            height: 70%;
+            margin: 24px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 4px;
+            h1{
+                color: $primary-color;
+            }
+            .box-links{
+                margin-top: 24px;
+                
+                a{
+                    margin: 12px 24px;
+                    img{
+                        //display: block;
+                        width: 6%;
+                    }
+                }
+            }
+        }
+    }
+}

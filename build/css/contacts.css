@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #0f2027;
+  background: linear-gradient(230deg, #0f2027 0%, #2c5364 75%, #0f2027 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow: hidden;
+  color: #e5e5e5; }
+
+.container {
+  width: 83%;
+  margin: 0 auto; }
+
+header nav .container {
+  padding-top: 4vh;
+  display: flex; }
+  header nav .container h3 {
+    font-size: 20px;
+    flex: 1;
+    color: #e5e5e5;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  header nav .container a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 16px;
+    letter-spacing: 2px; }
+  header nav .container span {
+    display: none; }
+
+footer img {
+  position: relative;
+  bottom: 4vh;
+  float: right; }
+
+header nav .container a {
+  margin-left: 18px; }
+
+header main .container {
+  text-align: center;
+  height: 80vh;
+  margin: 24px auto; }
+  header main .container h1 {
+    font-size: 36px;
+    font-weight: 400; }
+  header main .container .box {
+    background-color: #e5e5e5;
+    width: 70%;
+    height: 70%;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px; }
+    header main .container .box h1 {
+      color: #2C5364; }
+    header main .container .box .box-links {
+      margin-top: 24px; }
+      header main .container .box .box-links a {
+        margin: 12px 24px; }
+        header main .container .box .box-links a img {
+          width: 6%; }

@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #0f2027;
+  background: linear-gradient(230deg, #0f2027 0%, #2c5364 75%, #0f2027 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat";
+  overflow: hidden;
+  color: #e5e5e5; }
+
+.container {
+  width: 83%;
+  margin: 0 auto; }
+
+header nav .container {
+  padding-top: 4vh;
+  display: flex; }
+  header nav .container h3 {
+    font-size: 20px;
+    flex: 1;
+    color: #e5e5e5;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  header nav .container a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-size: 16px;
+    letter-spacing: 2px; }
+  header nav .container span {
+    display: none; }
+
+footer img {
+  position: relative;
+  bottom: 4vh;
+  float: right; }
+
+body {
+  background: #2c5360;
+  background: linear-gradient(40deg, #2c5360 0%, #0f2027 100%); }
+
+header nav .container a {
+  margin-left: 18px; }
+
+header main .container {
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  align-items: center; }
+  header main .container .showcase-text {
+    width: 45%; }
+    header main .container .showcase-text h1 {
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: 12px; }
+    header main .container .showcase-text p {
+      text-align: justify;
+      line-height: 1.25; }
+  header main .container .showcase-image {
+    width: 55%; }
+
+@media (max-width: 768px) {
+  header nav .container a {
+    display: none; }
+  header nav .container span {
+    display: block; }
+  header main .container .showcase-image {
+    display: none;
+    width: 0%; }
+  header main .container .showcase-text {
+    width: 100%; } }
+
+@media (max-width: 568px) {
+  header nav .container h3 {
+    font-size: 16px; }
+  header nav .container span img {
+    float: right;
+    width: 60%; }
+  header main .container .showcase-text h1 {
+    font-size: 20px; }
+  header main .container .showcase-text p {
+    font-size: 12px; }
+  footer img {
+    float: right;
+    width: 10%; } }

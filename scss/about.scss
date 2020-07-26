@@ -1,0 +1,40 @@
+@import 'config';
+
+body{
+    background: rgb(44,83,96);
+    background: linear-gradient(40deg, rgba(44,83,96,1) 0%, rgba(15,32,39,1) 100%);
+}
+
+header{
+    nav .container{
+        a{
+            margin-left: 18px;
+        }
+    }
+
+    main .container{
+        display: flex;
+        height: 85vh;
+        justify-content: center;
+        align-items: center;
+        .showcase-text{
+            width: 45%;
+            h1{
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin-bottom: 12px;
+            }
+            p{
+                text-align: justify;
+                line-height: 1.25;
+            }
+        }
+
+        .showcase-image{
+            width: 55%;
+        }
+    }
+}
+
+@import 'about_tablet';
+@import 'about_phone';
