@@ -1,0 +1,47 @@
+@media(max-width: $media_phone){
+    header{
+      nav .container{
+        h3{
+            font-size: 16px;
+        }
+
+        span{
+            img{
+                float: right;
+                width: 60%;
+            }
+        }
+      }
+
+      main .container{
+        //margin-bottom: 24px;
+        h1{
+          font-size: 30px;
+        }
+        .box{
+          width: 100%;
+          margin: 0 auto;
+          height: 30%;
+          margin-top: 12px;
+          h1{
+            font-size: 18px;
+          }
+          .box-links{
+            a{
+              margin: 8px 16px;
+              img{
+                width: 8%;
+              }
+            }
+          }
+        }
+      }
+    }
+  footer{
+    img{
+        float: right;
+        width: 10%;
+        bottom: 4vh;
+    }
+  }
+}

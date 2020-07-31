@@ -37,7 +37,7 @@ header nav .container {
 
 footer img {
   position: relative;
-  bottom: 4vh;
+  bottom: 6vh;
   float: right; }
 
 #el-1 {
@@ -165,4 +165,5 @@ header main .container {
       margin-right: 12px; }
   footer img {
     float: right;
-    width: 10%; } }
+    width: 10%;
+    bottom: 4vh; } }

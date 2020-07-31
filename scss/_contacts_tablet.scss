@@ -1,0 +1,25 @@
+@media(max-width: $media_tablet){
+    header{
+        nav .container{
+            a{
+                display: none;
+            }
+            span{
+                display: block;
+            }
+        }
+    
+        main .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            //margin-bottom: 20px;
+            margin: 12px auto;
+            .box{
+                width: 100%;
+                height: 40%;
+            }
+        }
+    }
+}
